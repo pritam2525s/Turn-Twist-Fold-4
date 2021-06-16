@@ -1,0 +1,67 @@
+body{
+    font-family: "Poppins";
+    background-image: url(https://www.bhmpics.com/wallpapers/iphone_x_colorful-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+a{
+    text-decoration: none
+}
+.image{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #F5F5F5;
+    margin: 10px;
+    color: #FFFFFF;
+    width: 214.542px;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    min-width: 250px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: 0px;
+}
+.sub-title{
+    text-align: center;
+    color: #FFFFFF;
+}
+.about{
+    font-size: 10px;
+    padding: 4px;
+    text-align: justify;
+    color: #DDDDDD;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+.image:hover{
+    transform: scale(1.06);
+}
+a:link{
+    color:aqua
+}
+a:visited{
+    color:beige
+}
